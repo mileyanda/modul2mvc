@@ -31,5 +31,7 @@ namespace Tugas1.Models.DB
         public virtual DbSet<SYSUserRole> SYSUserRoles { get; set; }
 
         public System.Data.Entity.DbSet<Tugas1.Models.ViewModel.UserSignUpView> UserSignUpViews { get; set; }
+
+        public System.Data.Entity.DbSet<Tugas1.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }
     }
 }
